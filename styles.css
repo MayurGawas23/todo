@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(27, 0, 34);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    /* list-style: none; */
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10vh;
+    /* background-color: red; */
+}
+
+.container {
+    max-width: 600px;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.stats-box {
+    border: solid rgb(205, 207, 66) 1px;
+    background-color: blueviolet;
+    padding: 10px;
+    width: 100%;
+    width: 500px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+
+
+
+}
+
+.details {
+    padding: 0px 20px;
+    flex: 1;
+}
+
+#progressBar {
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#progress {
+    width: 0%;
+    height: 10px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#numbers {
+    height: 80px;
+    width: 80px;
+    /* background: rgb(183, 185, 34) 1px; */
+    background-color: rgb(252, 255, 71);
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+input {
+
+    padding: 10px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    border-radius: 30%;
+}
+
+.taskItem {
+    width: 100%;
+    display: flex;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    width: 100%;
+    list-style:none;
+      border: solid rgb(205, 207, 66) 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.task{
+    display: flex;
+    align-items:center ;
+    gap:10px;
+}
+
+.task input{
+    width: 20px;
+    height: 20px;
+}
+
+
+.taskItem img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.completed p {
+    text-decoration: line-through;
+    color: red;
+}
