@@ -45,7 +45,7 @@ main {
     padding: 10px;
     width: 100%;
     width: 500px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -95,14 +95,35 @@ input {
 
     padding: 10px;
     width: 400px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     border: none;
+    border-bottom: solid white 2px;
     outline: none;
+    background-color: transparent;
+    color: white;
+        font-size: 20px;
+    transition: ease 0.3s;
+    
+}
+
+input:focus{
+    background-color: transparent;
+    color: white;
+    border-bottom: solid greenyellow 2px;
+    
 }
 
 button {
-    padding: 10px;
-    border-radius: 30%;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: ease 0.2s;
+    
+}
+
+button:hover{
+    background-color: greenyellow;
+    cursor: pointer;
 }
 
 .taskItem {
