@@ -108,7 +108,7 @@ button {
 .taskItem {
     width: 100%;
     display: flex;
-    background-color: blueviolet;
+    background-color:rgba(137, 43, 226, 0.664);
     padding: 10px;
     border-radius: 10px;
     justify-content: space-between;
@@ -137,11 +137,18 @@ button {
     height: 20px;
 }
 
+.icons{
+    display: flex;
+    gap:20px
+}
+
 
 .taskItem img{
     width: 24px;
     height: 24px;
     cursor: pointer;
+    
+    
 }
 
 .completed p {
